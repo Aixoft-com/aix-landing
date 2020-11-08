@@ -4,6 +4,9 @@ import { TitlePage } from './components/TitlePage/TitlePage';
 import { TopBar } from './components/TopBar/TopBar';
 import { AboutUsPage } from './components/AboutUsPage/AboutUsPage';
 import { ContactPage } from './components/ContactPage/ContactPage';
+import { Footer } from './components/Footer/Footer';
+import { ServiceDescription } from './components/ServiceDescription/ServiceDescription';
+import { Counters } from './components/Counters/Counters';
 
 function App() {
     return (
@@ -12,6 +15,9 @@ function App() {
             <TitlePage />
             <AboutUsPage />
             <ContactPage />
+            <ServiceDescription />
+            <Counters />
+            <Footer />
         </div>
     );
 }
