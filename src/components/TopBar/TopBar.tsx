@@ -14,6 +14,18 @@ export const TopBar: React.FC<TopBarProps> = ({ title }: TopBarProps) => {
                         <a className="navbar-brand logo" href="index.html">
                             <img src={logo}></img>
                         </a>
+                        <button
+                            className="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        />
+                        <span></span>
+                        <span></span>
+                        <span></span>
                         <div className="collapse navbar-collapse">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
