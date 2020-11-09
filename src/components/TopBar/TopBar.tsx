@@ -12,7 +12,7 @@ export const TopBar: React.FC<TopBarProps> = ({ title }: TopBarProps) => {
                 <div className="col-md-12">
                     <nav className="navbar navbar-expand-lg">
                         <a className="navbar-brand logo" href="index.html">
-                            <img src={logo}></img>
+                            <img src={logo} />
                         </a>
                         <button
                             className="navbar-toggler"

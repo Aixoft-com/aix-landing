@@ -8,18 +8,20 @@ import { Footer } from './components/Footer/Footer';
 import { ServiceDescription } from './components/ServiceDescription/ServiceDescription';
 import { Counters } from './components/Counters/Counters';
 
-function App() {
-    return (
-        <div>
-            <TopBar title="hello" />
-            <TitlePage />
-            <AboutUsPage />
-            <ContactPage />
-            <ServiceDescription />
-            <Counters />
-            <Footer />
-        </div>
-    );
+class App extends React.PureComponent {
+    render(): JSX.Element {
+        return (
+            <div className="page-wrapper">
+                <TopBar title="hello" />
+                <TitlePage />
+                <AboutUsPage />
+                <ServiceDescription />
+                <Counters />
+                <ContactPage />
+                <Footer />
+            </div>
+        );
+    }
 }
 
 export default App;
