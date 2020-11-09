@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { TitlePage } from './components/TitlePage/TitlePage';
-import { TopBar } from './components/TopBar/TopBar';
+import TopBar from './components/TopBar/TopBar';
 import { AboutUsPage } from './components/AboutUsPage/AboutUsPage';
 import { ContactPage } from './components/ContactPage/ContactPage';
 import { Footer } from './components/Footer/Footer';
@@ -12,7 +12,7 @@ class App extends React.PureComponent {
     render(): JSX.Element {
         return (
             <div className="page-wrapper">
-                <TopBar title="hello" />
+                <TopBar />
                 <TitlePage />
                 <AboutUsPage />
                 <ServiceDescription />
