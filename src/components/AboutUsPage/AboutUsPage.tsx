@@ -9,19 +9,23 @@ import piotrPic from './piotr.png';
 export const AboutUsPage: React.FC<Record<string, unknown>> = () => {
     const tomekProfile = {
         name: 'Tomasz',
-        description: 'Some quick example text to build on the card title and make up the bulk of the cars content',
+        description:
+            'Always open to learning new technologies and domains. Eager to explore new solutions for problems. Working within a team gives\n' +
+            'me possibility to learn and grow.',
         image: tomekPic,
     };
 
     const krystianProfile = {
         name: 'Krystian',
-        description: 'Some quick example text to build on the card title and make up the bulk of the cars content',
+        description:
+            'Solving complicated problems provides me a lot of delight. Due to my strong communication skills I prefer to work in team. Currently I’m joining my technical knowledge with improving my management skills.',
         image: krystianPic,
     };
 
     const piotrProfile = {
         name: 'Piotr',
-        description: 'Some quick example text to build on the card title and make up the bulk of the cars content',
+        description:
+            'Passionate of creating software that shapes living for the better. Open for new tech- nologies and challenges. Interested in mod- ern software architecture.',
         image: piotrPic,
     };
 
