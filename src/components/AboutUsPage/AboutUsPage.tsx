@@ -1,10 +1,11 @@
 import React from 'react';
 import manSmilingImage from './man-smiling.jpg';
 import { EmployeeCard } from '../EmployeeCard/EmployeeCard';
+import { ProgressBar } from '../ProgressBar/ProgressBar';
 
 export const AboutUsPage: React.FC<Record<string, unknown>> = () => {
     const cardData = {
-        name: 'Willimson ZIOM',
+        name: 'Willimson',
         description: 'Some quick example text to build on the card title and make up the bulk of the cars content',
         image: manSmilingImage,
     };
@@ -44,36 +45,9 @@ export const AboutUsPage: React.FC<Record<string, unknown>> = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 md-mt-5">
-                        <div className="ht-progress-bar">
-                            <h4>Java</h4>
-                            <div className="progress" data-value="95">
-                                <div className="progress-bar progress-bar-striped progress-bar-animated">
-                                    <div className="progress-parcent">
-                                        <span>90</span>%
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="ht-progress-bar">
-                            <h4>Spring</h4>
-                            <div className="progress" data-value="90">
-                                <div className="progress-bar progress-bar-striped progress-bar-animated">
-                                    <div className="progress-parcent">
-                                        <span>80</span>%
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="ht-progress-bar">
-                            <h4>Cloud</h4>
-                            <div className="progress" data-value="80">
-                                <div className="progress-bar progress-bar-striped progress-bar-animated">
-                                    <div className="progress-parcent">
-                                        <span>75</span>%
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <ProgressBar label="Java" percent={90} />
+                        <ProgressBar label="Spring" percent={80} />
+                        <ProgressBar label="Cloud" percent={75} />
                     </div>
                 </div>
                 <div className="row pt-5">
