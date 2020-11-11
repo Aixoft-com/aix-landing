@@ -6,4 +6,4 @@ export default {
     component: ContactPage,
 };
 
-export const ConactUsPage = () => <ContactPage />;
+export const ContactUsPage = () => <ContactPage />;
