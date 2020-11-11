@@ -1,13 +1,28 @@
 import React from 'react';
-import manSmilingImage from './man-smiling.jpg';
 import { EmployeeCard } from '../EmployeeCard/EmployeeCard';
 import { ProgressBar } from '../ProgressBar/ProgressBar';
 
+import tomekPic from './tomek.jpg';
+import krystianPic from './krystian.png';
+import piotrPic from './piotr.png';
+
 export const AboutUsPage: React.FC<Record<string, unknown>> = () => {
-    const cardData = {
-        name: 'Willimson',
+    const tomekProfile = {
+        name: 'Tomasz',
         description: 'Some quick example text to build on the card title and make up the bulk of the cars content',
-        image: manSmilingImage,
+        image: tomekPic,
+    };
+
+    const krystianProfile = {
+        name: 'Krystian',
+        description: 'Some quick example text to build on the card title and make up the bulk of the cars content',
+        image: krystianPic,
+    };
+
+    const piotrProfile = {
+        name: 'Piotr',
+        description: 'Some quick example text to build on the card title and make up the bulk of the cars content',
+        image: piotrPic,
     };
 
     return (
@@ -52,13 +67,25 @@ export const AboutUsPage: React.FC<Record<string, unknown>> = () => {
                 </div>
                 <div className="row pt-5">
                     <div className="col-md-4">
-                        <EmployeeCard name={cardData.name} description={cardData.description} image={cardData.image} />
+                        <EmployeeCard
+                            name={krystianProfile.name}
+                            description={krystianProfile.description}
+                            image={krystianProfile.image}
+                        />
                     </div>
                     <div className="col-md-4">
-                        <EmployeeCard name={cardData.name} description={cardData.description} image={cardData.image} />
+                        <EmployeeCard
+                            name={piotrProfile.name}
+                            description={piotrProfile.description}
+                            image={piotrProfile.image}
+                        />
                     </div>
                     <div className="col-md-4">
-                        <EmployeeCard name={cardData.name} description={cardData.description} image={cardData.image} />
+                        <EmployeeCard
+                            name={tomekProfile.name}
+                            description={tomekProfile.description}
+                            image={tomekProfile.image}
+                        />
                     </div>
                 </div>
             </div>
