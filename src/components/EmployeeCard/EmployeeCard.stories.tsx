@@ -1,6 +1,6 @@
 import React from 'react';
 import { EmployeeCard } from './EmployeeCard';
-import examplePicture from '../AboutUsPage/man-smiling.jpg';
+import examplePicture from './man-smiling.jpg';
 
 export default {
     title: 'Employee Card',
@@ -8,7 +8,7 @@ export default {
 };
 
 const data = {
-    name: 'Tomasz',
+    name: 'Willliam',
     description: 'Some quick example text to build on the card title and make up the bulk of the cars content',
     image: examplePicture,
 };
