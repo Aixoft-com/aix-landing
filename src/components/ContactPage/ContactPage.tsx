@@ -21,7 +21,7 @@ export const ContactPage: React.FC<Record<string, unknown>> = () => {
                                     <div className="col-md-12 text-center md-mt-5">
                                         <ul className="contact-info list-unstyled">
                                             <li>
-                                                <i className="flaticon-email"></i>
+                                                <i className="flaticon-email" />
                                                 <span>Email</span>
                                                 <a href="mailto:contact@aixoft.com">contact@aixoft.com</a>
                                             </li>
