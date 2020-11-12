@@ -12,7 +12,7 @@ export const ExampleCounter = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-md-3 col-sm-6">
-                        <Counter countTo={123} label="Example Label" />
+                        <Counter countTo={34} label="Example Label" />
                     </div>
                 </div>
             </div>
