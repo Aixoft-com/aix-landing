@@ -8,7 +8,7 @@ export const Footer: React.FC<Record<string, unknown>> = () => {
                 <div className="row text-center text-white">
                     <div className="col-md-12">
                         <div className="logo">
-                            <img className="img-center" src="{ logo }" alt="" />
+                            <img className="img-center" src={logo} alt="" />
                         </div>
                         <div className="social-icon my-4">
                             <ul className="list-inline mb-0">

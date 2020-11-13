@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import React from 'react';
 import logo from './logo.png';
 
 interface TopBarState {
@@ -10,7 +10,7 @@ export class TopBar extends React.PureComponent<unknown, TopBarState> {
         headerClass: '',
     };
 
-    handleScroll = () => {
+    handleScroll = (): void => {
         if (window.scrollY >= 100) {
             this.setState({
                 headerClass: 'fixed-header',
@@ -20,15 +20,15 @@ export class TopBar extends React.PureComponent<unknown, TopBarState> {
         }
     };
 
-    componentDidMount() {
+    componentDidMount(): void {
         window.addEventListener('scroll', this.handleScroll);
     }
 
-    componentWillUnmount() {
+    componentWillUnmount(): void {
         window.removeEventListener('scroll', this.handleScroll);
     }
 
-    render() {
+    render(): JSX.Element {
         return (
             <header className="site-header header">
                 <div id="header-wrap" className={this.state.headerClass}>
