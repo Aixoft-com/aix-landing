@@ -1,6 +1,6 @@
 import React from 'react';
 import './TitlePage.css';
-import manImage from './man.png';
+import manImage from './man.webp';
 
 export const TitlePage: React.FC<Record<string, unknown>> = () => {
     return (

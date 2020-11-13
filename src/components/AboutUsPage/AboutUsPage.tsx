@@ -2,9 +2,9 @@ import React from 'react';
 import { EmployeeCard } from '../EmployeeCard/EmployeeCard';
 import { ProgressBar } from '../ProgressBar/ProgressBar';
 
-import tomekPic from './tomek.jpg';
-import krystianPic from './krystian.png';
-import piotrPic from './piotr.png';
+import tomekPic from './tomasz.webp';
+import krystianPic from './krystian.webp';
+import piotrPic from './piotr.webp';
 
 export const AboutUsPage: React.FC<Record<string, unknown>> = () => {
     const tomekProfile = {
