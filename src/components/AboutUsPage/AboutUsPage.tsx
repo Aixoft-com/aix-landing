@@ -25,7 +25,7 @@ export const AboutUsPage: React.FC<Record<string, unknown>> = () => {
     const piotrProfile = {
         name: 'Piotr',
         description:
-            'Passionate of creating software that shapes living for the better. Open for new tech- nologies and challenges. Interested in mod- ern software architecture.',
+            'Passionate of creating software that shapes living for the better. Open for new technologies and challenges. Interested in mod- ern software architecture.',
         image: piotrPic,
     };
 

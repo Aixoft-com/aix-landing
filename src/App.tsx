@@ -6,7 +6,6 @@ import { AboutUsPage } from './components/AboutUsPage/AboutUsPage';
 import { ContactPage } from './components/ContactPage/ContactPage';
 import { Footer } from './components/Footer/Footer';
 import { ServiceDescription } from './components/ServiceDescription/ServiceDescription';
-import { Counters } from './components/Counters/Counters';
 
 class App extends React.PureComponent {
     render(): JSX.Element {
@@ -16,7 +15,6 @@ class App extends React.PureComponent {
                 <TitlePage />
                 <AboutUsPage />
                 <ServiceDescription />
-                {/*<Counters />*/}
                 <ContactPage />
                 <Footer />
             </div>
