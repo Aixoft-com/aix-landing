@@ -16,7 +16,7 @@ class App extends React.PureComponent {
                 <TitlePage />
                 <AboutUsPage />
                 <ServiceDescription />
-                <Counters />
+                {/*<Counters />*/}
                 <ContactPage />
                 <Footer />
             </div>
