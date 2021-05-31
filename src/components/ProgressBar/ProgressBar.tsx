@@ -1,29 +1,19 @@
-import React, { useState } from 'react';
+import React from "react";
+import "./ProgressBar.scss"
 
-interface ProgressBarProps {
-    label: string;
-    percent: number;
+interface Props {
+    label: String,
+    percent: number
 }
 
-export const ProgressBar: React.FC<ProgressBarProps> = (props: ProgressBarProps) => {
-    const [currentPercent, setCurrentPercent] = useState(24);
-    requestAnimationFrame(() => {
-        setCurrentPercent(props.percent);
-    });
-
+export const ProgressBar: React.FC<Props> = (props: Props) => {
+    const {label, percent} = props;
     return (
-        <div className="ht-progress-bar">
-            <h4>{props.label}</h4>
-            <div className="progress" data-value={props.percent}>
-                <div
-                    className="progress-bar progress-bar-striped progress-bar-animated"
-                    style={{ width: `${currentPercent}%` }}
-                >
-                    <div className="progress-parcent">
-                        <span>{props.percent}</span>%
-                    </div>
-                </div>
-            </div>
+      <div className="progress">
+        <div className="progress-label">{label}</div>
+        <div className="progress-content">
+          <span style={{width: `${percent}%`}} />
         </div>
-    );
-};
+      </div>
+    )
+}

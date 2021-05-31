@@ -1,0 +1,68 @@
+@import "../../styles/colors";
+
+.titlePage {
+  height: 90vh;
+  display: flex;
+  align-items: stretch;
+  padding-bottom: 0px;
+
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position-y: 10vh;
+
+  &::before {
+    content: " ";
+    position: absolute;
+    margin-left: calc(-1 * (100vw - 960px) / 2);
+    width: 100vw;
+    height: 90vh;
+    z-index: -1;
+    background-image: url("../../styles/background.webp");
+  }
+
+  &-text {
+    padding-top: 15vh;
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+    }
+
+    span {
+      color: $red;
+      font-weight: 700;
+    }
+
+  }
+
+  &-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 80vh;
+      align-self: flex-end;
+      padding-bottom: 0;
+    }
+  }
+
+  p {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titlePage {
+    &::before {
+      display: none;
+    }
+    &-image {
+      img {
+        display: none;
+      }
+    }
+  }
+}

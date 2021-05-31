@@ -1,0 +1,29 @@
+@import "../../styles/colors";
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $red;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+
+    path {
+      color: white;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+  }
+
+}

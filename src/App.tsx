@@ -1,25 +1,22 @@
 import React from 'react';
-import './App.css';
-import { TitlePage } from './components/TitlePage/TitlePage';
-import TopBar from './components/TopBar/TopBar';
-import { AboutUsPage } from './components/AboutUsPage/AboutUsPage';
-import { ContactPage } from './components/ContactPage/ContactPage';
-import { Footer } from './components/Footer/Footer';
-import { ServiceDescription } from './components/ServiceDescription/ServiceDescription';
+import {NavBar} from "./layout/NavBar/NavBar";
+import {TitlePage} from "./layout/TitlePage/TitlePage";
+import {AboutUs} from "./layout/AboutUs/AboutUs";
+import {Services} from "./layout/Services/Services";
+import {ContactUs} from "./layout/ContactUs/ContactUs";
+import {Footer} from "./layout/Footer/Footer";
 
-class App extends React.PureComponent {
-    render(): JSX.Element {
-        return (
-            <div className="page-wrapper">
-                <TopBar />
-                <TitlePage />
-                <AboutUsPage />
-                <ServiceDescription />
-                <ContactPage />
-                <Footer />
-            </div>
-        );
-    }
+function App() {
+  return (
+    <div className="wrapper">
+      <NavBar />
+      <TitlePage />
+      <AboutUs />
+      <Services />
+      <ContactUs />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
