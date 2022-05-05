@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e8a6d699.chunk.css",
-    "main.js": "/static/js/main.6fcbe918.chunk.js",
-    "main.js.map": "/static/js/main.6fcbe918.chunk.js.map",
+    "main.js": "/static/js/main.fd508913.chunk.js",
+    "main.js.map": "/static/js/main.fd508913.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9e611d01.js",
     "runtime-main.js.map": "/static/js/runtime-main.9e611d01.js.map",
     "static/js/2.a0199b7a.chunk.js": "/static/js/2.a0199b7a.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.e8a6d699.chunk.css.map": "/static/css/main.e8a6d699.chunk.css.map",
     "static/js/2.a0199b7a.chunk.js.LICENSE.txt": "/static/js/2.a0199b7a.chunk.js.LICENSE.txt",
     "static/media/TitlePage.scss": "/static/media/background.70f73be5.webp",
-    "static/media/krystian.75353612.webp": "/static/media/krystian.75353612.webp",
+    "static/media/krystian.1cf63aa9.webp": "/static/media/krystian.1cf63aa9.webp",
     "static/media/logo.c7de25e3.png": "/static/media/logo.c7de25e3.png",
     "static/media/man.5b3fe821.webp": "/static/media/man.5b3fe821.webp",
     "static/media/piotr.da0a3e8d.webp": "/static/media/piotr.da0a3e8d.webp",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.9e611d01.js",
     "static/js/2.a0199b7a.chunk.js",
     "static/css/main.e8a6d699.chunk.css",
-    "static/js/main.6fcbe918.chunk.js"
+    "static/js/main.fd508913.chunk.js"
   ]
 }
